@@ -1,0 +1,47 @@
+body{
+    text-align: center;
+}
+
+#cajasoltar {
+    margin: 0 auto;
+    width: 400px;
+    height: 380px;
+}
+
+#cajaimagenes {
+    margin: 0 auto;
+    width: 60%;
+    height: 300px;
+}
+
+#cajaimagenes>img {
+    float: center;
+    padding: 90px;
+}
+
+div#animales{
+    height: 250px;
+}
+
+h4{
+    text-align: center;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: #f8e3a0;
+    text-shadow: 1px 1px 1px #EAAE54,
+        1px 2px 1px #EAAE54,
+        1px 3px 1px #EAAE54,
+        1px 4px 1px #EAAE54,
+        1px 5px 1px #EAAE54,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
+}
+
+div#sonido{
+    display: grid;
+    justify-content: end;
+}

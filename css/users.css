@@ -1,0 +1,68 @@
+/* Estilos para el registro de usuario */
+
+body {
+    font-family: "Madimi One", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/fondos/fondo.png');
+    background-size: contain;
+    background-attachment: fixed;
+    background-repeat: round;
+
+    background-color: rgba(121, 180, 183, 0.9);
+    background-blend-mode: multiply;
+}
+
+h1{
+    color: rgb(255, 255, 255); /* Azul claro */
+    text-align: center;
+    font-size: 80px; /* Más grande */
+}
+
+div#form{
+    width: 80%;
+    margin: 0 auto;
+}
+
+form {
+    width: 60%; /* Más grande */
+    margin: 0 auto;
+    padding: 30px; /* Más grande */
+    background-color: #ffffff;
+    border-radius: 15px; /* Más redondeado */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    font-size: xx-large;
+}
+
+label {
+    display: block;
+    margin-bottom: 15px;
+    color: #333333;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 97%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    text-align: center; 
+    font-size: 50px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 15px; 
+    background-color: rgba(121, 180, 183, 0.9); 
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+button[type="submit"]:hover {
+    background-color: rgb(144, 216, 219);
+}

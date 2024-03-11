@@ -1,0 +1,72 @@
+body{
+    background-color: #ffeaa7;
+}
+
+#Titulo {
+    display: flex;
+    justify-content: center;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 700;
+    font-size: 3.5rem;
+    color: #e67e22;
+    text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.5);
+    margin-bottom: 2rem;
+}
+
+div#Instrucciones{
+    width: 91%;
+    margin: 0 auto;
+    background-color: #ffeaa7;
+    border-radius: 20px;
+    padding: 20px 0px;
+    /* box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.247); */
+    overflow: hidden;
+}
+
+div#Instrucciones > ul{
+    list-style-type: none;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+}
+
+#lista li {
+    margin-bottom: 1.5rem;
+    position: relative;
+    padding-left: 2rem;
+    transition: transform 0.3s ease;
+    transform-origin: left; 
+}
+
+#lista li:hover {
+    transform: scale(1.1);
+}
+
+#lista li::before {
+    content: "\f1bb";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-style: normal;
+    position: absolute;
+    left: 0;
+    top: 0.2rem;
+    color: #e67e22;
+    font-size: 1.2rem;
+    transition: transform 0.3s ease;
+    transform-origin: left; 
+}
+
+#lista li:hover::before {
+    transform: scale(1.2);
+}
+
+a{
+    color: #444444;
+    font-family: "Madimi One", sans-serif;
+    text-decoration: none;
+    padding-top: 2px;
+}
+
+a:hover{
+    color: #a1a1a1;
+}

@@ -1,0 +1,158 @@
+.bordes{
+    border: 1px solid;
+}
+
+.row{
+    margin: 0 auto;
+}
+
+#encabezado{
+    width: 100%;
+    padding: 10px;
+    box-shadow: 0px 5px 8px 0px gray;
+}
+
+.botones{
+    border: none;
+    background-color: transparent;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/fondos/fondo.png');
+    background-size: contain;
+    background-attachment: fixed;
+    background-repeat: round;
+
+    background-color: rgba(121, 180, 183, 0.9);
+    background-blend-mode: multiply;
+}
+
+h1{
+    /* margin-top: 120px; */
+    text-align: center;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 45px;
+    color: #f8e3a0;
+    text-shadow: 1px 1px 1px #EAAE54,
+        1px 2px 1px #EAAE54,
+        1px 3px 1px #EAAE54,
+        1px 4px 1px #EAAE54,
+        1px 5px 1px #EAAE54,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
+}
+
+p#puntaje, p#tiempo{
+    font-size: 27px;
+    font-family: "Madimi One", sans-serif;
+    color: white;
+    text-shadow: 1px 1px 1px #7a7979,
+        1px 2px 1px #7a7979,
+        1px 3px 1px #7a7979,
+        1px 4px 1px #7a7979,
+        1px 5px 1px #7a7979;
+}
+
+p#modal{
+    font-size: 15px;
+    font-family: "Madimi One", sans-serif;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 1px #7a7979;
+}
+
+.button{
+    appearance: none;
+    background-color: #ffffffb3;
+    border-width: 0;
+    border-radius: 23px;
+    box-sizing: border-box;
+    color: #242424;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Madimi One", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 0;
+    /* line-height: 1em; */
+    /* margin-left: 570px; */
+    opacity: 1;
+    outline: 0;
+    padding: 0.2em 1.2em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-rendering: geometricprecision;
+    /* text-transform: uppercase; */
+    transition: opacity 300ms cubic-bezier(.694, 0, 0.335, 1),background-color 100ms cubic-bezier(.694, 0, 0.335, 1),color 100ms cubic-bezier(.694, 0, 0.335, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    white-space: nowrap;
+}
+
+.button:before {
+    border-radius: 23px;
+    animation: opacityFallbackOut .5s step-end forwards;
+    backface-visibility: hidden;
+    background-color: #EBEBEB;
+    clip-path: polygon(-1% 0, 0 0, -25% 100%, -1% 100%);
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transform: translateZ(0);
+    transition: clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1), -webkit-clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1);
+    width: 100%;
+}
+
+.button:hover:before {
+    border-radius: 23px;
+    animation: opacityFallbackIn 0s step-start forwards;
+    clip-path: polygon(0 0, 101% 0, 101% 101%, 0 101%);
+}
+
+.button:after {
+    background-color: #FFFFFF;
+}
+
+.button span {
+    z-index: 1;
+    position: relative;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    grid-template-rows: auto;
+    gap: 10px;
+    padding: 5px;
+    text-align: center;
+}
+  
+div#title, div#ayuda, div#salir, div#title{
+    /* border: 1px solid #ddd; */
+    padding: 5px;
+    align-self: center;
+    justify-self: center;
+}
+  
+div#ayuda{
+    /* border: 1px solid #ddd; */
+    padding: 5px;
+    align-self: center;
+    justify-self: end;
+}
+
+div#puntajeP, div#tiempoP{
+    padding: 5px;
+    align-self: center;
+    justify-self: center;
+}

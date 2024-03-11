@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/fondos/fondo.png');
+    background-size: contain;
+    background-attachment: fixed;
+    background-repeat: round;
+
+    background-color: rgba(121, 180, 183, 0.9);
+    background-blend-mode: multiply;
+
+    text-align: center;
+}
+
+/* Estilos de la tabla */
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+    background-color: #f2f2f2; /* Color de fondo de la tabla */
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    vertical-align: middle; /* Alineación de celda */
+}
+
+th {
+    background-color: #f2a02dbb; /* Color de fondo del encabezado */
+    color: white; /* Color de texto del encabezado */
+    font-size: 20px; /* Tamaño de fuente del encabezado */
+    font-weight: bold; /* Peso de la fuente del encabezado */
+}
+
+/* Fondo alternado */
+tr:nth-child(even) {
+    background-color: #e5e5e5;
+}
+
+
+/* Resaltado de fila seleccionada */
+tr.selected {
+    background-color: #ffefc1 !important; /* Cambiar el estilo de fondo */
+}
+
+/* Ancho fijo de columna */
+th:nth-child(1), td:nth-child(1) {
+    width: 40%; /* Ancho de la primera columna */
+}
+
+th:nth-child(2), td:nth-child(2), th:nth-child(3), td:nth-child(3) {
+    width: 30%; /* Ancho de las otras columnas */
+}
+
+/* Estilo de fuente */
+body, th, td {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+/* Espaciado entre celdas */
+table {
+    border-spacing: 0;
+}
+
+/* Margen y padding */
+table {
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 12px;
+}
+
+a{
+    color: white;
+    font-family: "Madimi One", sans-serif;
+    text-decoration: none;
+    padding-top: 2px;
+}
+
+a:hover{
+    color: #a1a1a1;
+}
